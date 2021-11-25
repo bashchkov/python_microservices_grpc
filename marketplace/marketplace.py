@@ -5,10 +5,8 @@ import os
 from flask import Flask, render_template
 import grpc
 
-
 from recommendations_pb2 import BookCategory, RecommendationRequest
 from recommendations_pb2_grpc import RecommendationsStub
-
 
 app = Flask(__name__)
 
